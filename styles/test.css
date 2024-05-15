@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(29, 136, 29);
+}
+h1 {
+  color: red;
+  background-color: black;
+}
+ul > li {
+  color: yellow;
+}
