@@ -32,6 +32,8 @@ a {
   text-decoration: none;
 }
 .link {
+  display: block;
+  text-align: center;
   background-color: rebeccapurple;
   color: #fff;
   padding: 8px 15px;
@@ -41,16 +43,22 @@ ul {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
+  gap: 30px;
 }
-ul li:not(:last-child) {
-  margin-right: 30px;
-}
+/* ul > li:not(:last-child) {
+  gap: 30px;
+} */
 
 .box {
   display: flex;
   margin-bottom: 30px;
   gap: 20px;
   border-bottom: 1px solid #000;
+}
+.results {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 section {
   background-color: lavender;
